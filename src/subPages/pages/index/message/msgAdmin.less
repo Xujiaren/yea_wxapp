@@ -1,0 +1,194 @@
+.wrapper{
+    .chatBox{
+        .adminIcon{
+            width: 80rpx;
+            height: 80rpx;
+            border-radius: 40rpx;
+        }
+
+        .chatLeft{
+            border-radius: 20rpx;
+            .chatdesc_txt{
+                border-radius: 20rpx;
+                padding: 16rpx 24rpx;
+                border:2rpx solid #f1f1f1;
+            }
+            .dot_box{
+                width: 0;
+                height: 0;
+                border-bottom: 10px solid transparent;
+                border-right: 20rpx solid #f1f1f1;
+                border-top: 10rpx solid transparent;
+                position: relative;
+                margin-right: -2rpx;
+                .dot{
+                    width: 0;
+                    height: 0;
+                    border-bottom: 8rpx solid transparent;
+                    border-right: 18rpx solid #ffffff;
+                    border-top: 8rpx solid transparent;
+                    position: absolute;
+                    left: 2rpx;
+                    top: -8rpx;
+                }
+            }
+            
+
+            text{
+                word-break: break-all;
+                vertical-align: text-top;
+            } 
+            .chatmsg_txt{
+                display: inline;
+            }
+        }
+
+        .chatRight{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            .chatLeft_cover{
+                width: 80rpx;
+                height: 80rpx;
+                border-radius: 40rpx;
+            }
+            .chatmsg{
+                padding: 16rpx 24rpx;
+                background-color: #0A86F9;
+                border-radius: 10rpx;
+                margin-right: -2rpx;
+                text{
+                    word-break: break-all;
+                    vertical-align: text-top;
+                } 
+                .chatmsg_txt{
+                    display: inline;
+                }
+            }
+            .dot{
+                width: 0;
+                height: 0;
+                border: 10rpx solid transparent;
+                border-left: 20rpx solid #0A86F9;
+                margin-left: -4rpx;
+            }
+        }
+        
+    }
+
+    text{
+        word-break: break-all;
+        vertical-align: text-top;
+    } 
+    .chatmsg_txt{
+        display: inline;
+    }
+}
+
+.comt_box{
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    bottom: 0;
+    .comments{
+        background-color: #FFFFFF;
+        box-shadow:0px -1px 0px 0px rgba(233,233,233,0.5);
+        width: 100%;
+        height: 100rpx;
+        padding-left: 24rpx;
+        .input{
+            width: 72%;
+            height: 60rpx;
+            background-color: #F4F4F4;
+            border-radius: 10rpx;
+            padding-left: 24rpx;
+            line-height: 60rpx;
+        }
+        .gift{
+            width: 40rpx;
+            height: 40rpx;
+        }
+
+        .uppic{
+            width: 40rpx;
+            height: 40rpx;
+        }
+
+        .countBox{
+            height: 46rpx;
+            position: relative;
+            width: 70rpx;
+            margin-left: 30rpx;
+            margin-right: 30rpx;
+            .heart_icon{
+                width: 46rpx;
+                height: 46rpx;
+            }
+            .count{
+                position: absolute;
+                top: 0;
+                background-color: #FF5047;
+                height: 26rpx;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 16rpx;
+                right: 0rpx;   
+                min-width: 20rpx;
+                padding: 0rpx 8rpx;             
+            }
+        }
+
+        .eval_icon{
+            width: 40rpx;
+            height: 40rpx;
+        }
+
+        .buyBtn{
+            flex: 1;
+            height: 72rpx;
+            border-radius: 10rpx;
+            background: rgba(244,98,63,1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+    }
+    .emojiBox{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-flow: row wrap;
+        align-content: flex-start;
+        .emoji_wrap{
+            flex: 0 0 100rpx;
+            height: 56rpx;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10rpx;
+            margin-left: 2rpx;
+            .emojiBox_cover{
+                width: 56rpx;
+                height: 56rpx;
+                margin-bottom: 16rpx;
+                margin-top: 16rpx;
+            }
+        }
+        
+    }
+}
+
+.scroll_box{
+    padding-bottom: 120rpx;
+    width: 100%;
+    // height: 100%;
+    height: calc(100vh - 120rpx);
+}
+
+
+.chatImg{
+    width: 300rpx;
+    height: 280rpx;
+}

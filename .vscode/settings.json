@@ -1,0 +1,18 @@
+{
+    "background.customImages": [
+        // "https://edu-uat.oss-cn-shenzhen.aliyuncs.com/images/73539474-ab10-4acc-9e82-f280e65ad7ca.png"
+    ],
+    "background.useDefault": false, //不使用默认背景图
+    "background.style": { //样式配置
+        // "content": "''",
+        // // "pointer-events": "none",
+        // // "position": "absolute",
+        // "z-index": "99999",
+        // "width": "100%",
+        // "height": "100%",
+        // // "background-position": "100% 100%",
+        // // "background-repeat": "no-repeat",
+        // "opacity": 0.2,
+        // // "background-size": "100%",
+    }
+}

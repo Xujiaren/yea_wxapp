@@ -1,0 +1,81 @@
+
+.wrap{
+    padding-left: 32rpx;
+
+    .questBox{
+        
+        padding-top: 30rpx;
+        padding-bottom: 30rpx;
+        padding-right: 60rpx;
+        border-bottom: 2rpx solid #F8F8F8;
+    }
+
+    .fd_icon{
+        width: 60rpx;
+        height: 60rpx;
+        margin-right: 40rpx;
+    }
+
+    .arrow_icon_r{
+        width: 12rpx;
+        height: 22rpx;
+    }
+    .arrow_icon_b{
+        width: 22rpx;
+        height: 12rpx;
+    }
+
+    .wrap_bottom{
+        background-color: #F3F3F3;
+        padding-left: 50rpx;
+        padding-right: 32rpx;
+        margin-right: 60rpx;
+        padding-top: 10rpx;
+        margin-top: 20rpx;
+        .bd_bt{
+            border-bottom: 4rpx solid #EBEBEB;
+        }
+    }
+
+    .bg_cate{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex: 1;
+        padding-right: 32rpx;
+        padding-top: 20rpx;
+        padding-bottom: 20rpx;
+    }
+
+    .border_obtm{
+        border-bottom: 4rpx solid #F7F7F7 ;
+    }
+
+    .border_nbtm{
+        border-bottom: 4rpx solid #FFFFFF ;
+    }
+
+    .openBG{
+        animation: slideBGtUp 2s ease-in both;
+    }
+    .closeBG{
+        animation: slideBGDown 2s ease-in both;
+    }
+
+}
+
+
+
+/* 显示或关闭内容时动画 */
+
+.openBG {
+    animation: slideBGtUp 1s ease-in both;
+    /* animation-fill-mode: both 动画将会执行 forwards 和 backwards 执行的动作。 */
+}
+  
+.closeBG {
+    animation: slideBGDown 1s ease-in both;
+    /* animation-fill-mode: both 动画将会执行 forwards 和 backwards 执行的动作。 */
+}
+

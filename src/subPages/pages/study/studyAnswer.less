@@ -1,0 +1,155 @@
+.wrapper{
+    .time_cost{
+        text-align: right;
+        padding-right: 60rpx;
+    }
+    .topic_content_wrap{
+        padding-bottom:120rpx;
+        box-sizing: border-box;
+        .topic_type{
+            padding:40rpx 32rpx 36rpx 40rpx;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-between;
+            .topic_type_title{
+                color:#333;
+                font-size: 40rpx;
+                font-weight: bold;
+            }
+            .topic_type_num{
+                font-size: 24rpx;
+                color:rgb(90, 90, 90);
+            }
+            .text_bold{
+                font-size: 32rpx;
+                color:#666;
+            }
+        }
+        .topic_content{
+            padding-left:40rpx;
+            padding-right: 10rpx;
+            .topic_title{
+                font-size: 32rpx;
+                color:#333;
+                line-height: 50rpx;
+            }
+            .choosen_item{
+                margin-top: 44rpx;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                .item_icon{
+                    background: #EBEBEB;
+                    border-radius: 50%;
+                    width: 60rpx;
+                    height: 60rpx;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 28rpx;
+                    color:#666;
+                    flex-shrink: 0;
+                    margin-right: 32rpx;
+                }
+                .item_onicon{
+                    background: #99D321;
+                    border-radius: 50%;
+                    width: 60rpx;
+                    height: 60rpx;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 28rpx;
+                    color:#ffffff;
+                    flex-shrink: 0;
+                    margin-right: 32rpx;
+                }
+                .item_txt{
+                    font-size: 32rpx;
+                    color:#333;
+                }
+                .item_ontxt{
+                    font-size: 32rpx;
+                    color:#99D321
+                }
+                .item_tips{
+                    font-size: 28rpx;
+                    color:#99D321;
+                    flex-shrink: 0;
+                    width: 70rpx;
+                    height: 60rpx;
+                    margin-left: 10rpx;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+                .error_txt{
+                    color:#F4623F;
+                }
+                .error{
+                    background: #F4623F;
+                    color:#fff;
+                }
+                .correct{
+                    background: #99D321;
+                    color:#fff;
+                }
+            }
+            .answer_wrap{
+                margin-top:100rpx;
+                margin-right: 10rpx;
+                .answer_title{
+                    font-size: 32rpx;
+                    color:#333;
+                    font-weight: bold;
+                }
+                .answer_content{
+                    color:#999;
+                    font-size: 28rpx;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+
+    .topic_menu{
+        position: fixed;
+        bottom:0;
+        left:0;
+        right: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        box-sizing: border-box;
+        box-shadow:0rpx -2rpx 0rpx 0rpx rgba(240,240,240,1);
+        background-color: #fff;
+        height: 100rpx;
+        z-index: 2;
+        .submit_btn{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+            color:#333; 
+            height: 100rpx;
+            font-size: 32rpx;           
+        }
+        .btn_prv{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100rpx;
+        }
+        .btn_nxt{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100rpx;
+            border-left: 2rpx solid rgba(240,240,240,1);
+            border-right: 2rpx solid rgba(240,240,240,1);
+        }
+    }
+}

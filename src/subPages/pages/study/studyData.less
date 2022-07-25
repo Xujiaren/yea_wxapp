@@ -1,0 +1,126 @@
+page{
+    background-color: #FBFDFF ;
+}
+.studywrap{
+    padding-bottom: 40rpx;
+    position: relative;
+
+    .studycons{
+        position: absolute;
+        top: 50rpx;
+        .studyRank{
+            margin: 30rpx;
+            box-shadow: 0rpx 0rpx 20rpx 0rpx rgba(0,0,0,0.07);
+            background-color: #ffffff;
+            border-radius: 10rpx;  
+            padding: 30rpx 60rpx 40rpx;          
+            .hourRnk{
+                .hour_items{
+                    width: 100%;
+                    .hourRnk_item{
+                        flex:1;
+                        &:last-child{
+                            border:0rpx
+                        }
+                        border-right: 2rpx solid #f5f5f5;
+                        padding-left: 16rpx;
+                        padding-right: 16rpx;
+                    }
+                }
+                
+            }
+        }
+
+        .log_cons{
+            margin: 30rpx;
+            box-shadow: 0rpx 0rpx 20rpx 0rpx rgba(0,0,0,0.07);
+            background-color: #ffffff;
+            border-radius: 10rpx;  
+            padding: 30rpx 40rpx;
+            .log{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .log_icon{
+                    width: 24rpx;
+                    height: 24rpx;
+                }
+            }
+        }
+    }
+    .learn_icon{
+        width: 100%;
+        height: 226rpx;
+    }
+    .rank_cover{
+        width: 36rpx;
+        height: 36rpx;
+    }
+    .studybox{
+        padding-left: 1%;
+        padding-right: 1%;
+        .studyitem{
+            width:32%;
+            height:130rpx;
+            border:2rpx solid #dddddd;
+        }
+    }
+
+
+    .usershow{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height:100%;
+        z-index: 999;
+        .ctypelayer{
+            width: 100%;
+            height:100%;
+            background:rgba(0,0,0,0.7);
+            top:0rpx;
+            position: fixed;
+            z-index: 900;
+        }
+        .dialog{
+            position: absolute;
+            top:50%;
+            left: 50%;
+            margin-left: -270rpx;
+            width:540rpx;
+            height: 320rpx;
+            background-color: #ffffff;
+            z-index: 9999;
+            margin-top: -160rpx;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .wrappost{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            display: flex;
+            justify-content:space-around;
+            align-items:center;
+            flex-direction: column;
+            z-index:999;
+        }
+        .wrapbtns{
+            width: 100%;
+            .btn{
+                width: 50%;
+                height: 90rpx;
+                margin-top: auto;
+                border-radius: 0%;
+                border-top: 1px solid #ddd;
+                line-height: 90rpx;
+                font-size: 40rpx;
+                
+            }
+            button::after{ border: none; }
+        }
+        
+       
+    }
+    
+}
+

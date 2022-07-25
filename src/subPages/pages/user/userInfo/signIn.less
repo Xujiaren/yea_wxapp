@@ -1,0 +1,159 @@
+.signBox{
+    .signCover{
+        width: 100%;
+        height:232rpx;
+    }
+    .main_icon{
+        width: 40rpx;
+        height: 36rpx;
+    }
+
+    .signcons{
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: #FBFFF2;
+        height: 300rpx;
+        padding-top: 36rpx;
+        padding-left: 20rpx;
+        padding-right: 20rpx;
+        .quest_icon{
+            width: 30rpx;
+            height: 30rpx;
+            background-color: #fafafa;
+            border-radius: 15rpx;
+        }
+        .signLines{
+            width: 100%;
+            position: relative;
+            .sign_line{
+                width: 100%;
+                height: 2rpx;
+                background-color: #DAE0CC;
+            }
+            .sign_dayt{
+                position: absolute;
+                width: 100%;
+                top: -26rpx;
+                .sign_day{
+                    width: 52rpx;
+                    height: 52rpx;
+                    border-radius: 26rpx;
+                    background-color: #FBD547;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }  
+                .sign_ofday{
+                    width: 52rpx;
+                    height: 52rpx;
+                    border-radius: 26rpx;
+                    background-color: #DAE0CC;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                } 
+            }
+            
+        }
+    }
+    .signInBtn{
+        background-color: #45B750;
+        border-radius: 10rpx;
+    }
+    .signInBtns{
+        background-color: #cccccc;
+        border-radius: 10rpx;
+    }
+    .teachzone{
+        padding: 30rpx;
+        padding-right: 0rpx;
+        border-radius: 10rpx;
+        margin-top: 40rpx;
+        .arrow_right{
+            width: 12rpx;
+            height: 22rpx;
+            margin-left: 10rpx;
+        }
+        .teach{
+            width: 100%;
+            .teach_item{
+                .teach_cover{
+                    width: 240rpx;
+                    height: 152rpx;
+                    border-radius: 10rpx;
+                    background-color: #fafafa;
+                }
+            }
+        }
+    }
+}
+
+.layer{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height:100%;
+    z-index: 999;
+    .tips{
+        width: 100%;
+        height:100%;
+        background:rgba(0,0,0,0.7);
+        top:0rpx;
+        position: fixed;
+        z-index: 900;
+    }
+    .tipdesc{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 40rpx;
+        margin-left: -320rpx;
+        width: 560rpx;
+        height: 800rpx;
+        background-color: #ffffff;
+        z-index: 9999;
+        margin-top: -440rpx;
+        border-radius: 10rpx;
+        overflow: hidden;
+        .tip_cons{
+            display: flex;
+            flex-direction: column;
+            border-bottom: 4rpx solid #f5f5f5;
+            padding-bottom: 40rpx;
+            margin-bottom: 40rpx;
+        }
+        .lat{
+            width: 580rpx;
+            border-bottom: 4rpx solid #f5f5f5;
+            position: absolute;
+            bottom: 120rpx;
+            left: 30rpx;
+        }
+        .tip_btn{
+            position: absolute;
+            bottom: 20rpx;
+            width: 480rpx;
+            margin-left: 40rpx;
+            margin-right: 40rpx;
+            height: 80rpx;
+            border-radius: 40rpx;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background-color: #F9D200;
+        }
+    }
+    
+}
+
+::-webkit-scrollbar {
+    display:none;
+    width:0;
+    height:0;
+    color:transparent;
+}
+.bg_ye{
+    width: 100%;
+    height: 600rpx;
+}

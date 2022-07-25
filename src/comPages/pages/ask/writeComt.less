@@ -1,0 +1,134 @@
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    margin-left: 40rpx;
+    box-sizing: border-box;
+    margin-top: 20rpx;
+
+    .smeil_icon{
+        width: 34rpx;
+        height: 34rpx;
+    }
+    
+    .commtbox{
+        .commt_img{
+            width: 100rpx;
+            height: 100rpx;
+            position: relative;
+            flex-shrink: 0;
+            float: left;
+            .commt_img_cover{
+                width: 100rpx;
+                height: 100rpx;
+            }
+            .commt_tip{
+                width: 24rpx;
+                height: 24rpx;
+                position: absolute;
+                top: -10rpx;
+                right: -10rpx;
+                border: 2rpx solid #ffff;
+                border-radius: 12rpx;
+            }
+        }
+        .commt_imgs{
+            width: 96rpx;
+            height: 96rpx;
+            border: 2rpx solid #E9E9E9;
+            position: relative;
+            flex-shrink: 0;
+            float: left;
+            .commt_img_covers{
+                width: 50rpx;
+                height:50rpx;
+            }
+        }
+    }
+}
+.from_atext{
+    background-color: #F4F4F4;
+    width: 88%;
+    height: 186rpx;
+    border-radius: 10rpx;
+    padding-left: 20rpx;
+}
+.btn{
+    width: 88%;
+    height: 88rpx;
+    padding-right: 20rpx;
+    padding-left: 20rpx;
+    background-color: #F4623F;
+    border-radius: 10rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30rpx;
+}
+.layer{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 10%;
+    z-index: 999;
+    .commt_layer{
+        background-color: #fff;
+        margin: 40rpx;
+        border-radius: 10rpx;
+
+    }
+    .layer_img{
+        height: 240rpx;
+        background-color: #dddddd;
+    }
+    .layer_btns{
+        background-color: #F8F8F8;
+        .layer_btn{
+            width: 224rpx;
+            height: 100rpx;
+            border: 2rpx solid #F8F8F8;
+            border-radius: 8rpx;
+        }
+    }
+}
+
+.emojiBox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    .emoji_wrap{
+        flex: 0 0 100rpx;
+        height: 56rpx;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10rpx;
+        margin-left: 2rpx;
+        .emojiBox_cover{
+            width: 56rpx;
+            height: 56rpx;
+            margin-bottom: 16rpx;
+            margin-top: 16rpx;
+        }
+    }
+    
+}
+.emoji_layer{
+    background-color: rgba(0,0,0,0.1);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    .layers{
+        position: absolute;
+        bottom: 0rpx;
+        
+    }
+}

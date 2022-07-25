@@ -1,0 +1,89 @@
+page{
+    background: #FAFAFA;
+}
+.root{
+    padding-top:44rpx;
+}
+.img_wrap{
+    margin:0 auto;
+    
+    width: 730rpx;
+    height: 388rpx;
+    position: relative;
+    .idcard_img{
+        width: 730rpx;
+        height: 388rpx;
+    }
+    .num{
+        position: absolute;
+        top:40rpx;
+        right: 40rpx;
+        font-size: 24rpx;
+        color:#666;
+    }
+    .card_info_wrap{
+        position: absolute;
+        left:40%;
+        top:35%;
+        
+        .avatar_wrap{
+            display: flex;
+            align-items: center;
+            .avatar{
+                width:60rpx;
+                height: 60rpx;
+                border-radius: 50%;
+                background: #c7c7c7;
+                margin-right: 24rpx;
+                flex-shrink: 0;
+            }
+            .username{
+                color:#333;
+                font-size: 32rpx;
+                font-weight: bold;
+                max-width: 300rpx;
+
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                text-overflow: ellipsis;
+                -webkit-line-clamp: 1;
+                word-break: break-all;
+                overflow: hidden;
+            }
+        }
+        .learn{
+            font-size: 24rpx;
+            color:#666;
+            margin-top:10rpx;
+            margin-left:84rpx;
+        }
+        .bold{
+            font-weight: bold;
+        }
+        
+    }
+}
+.qrcode{
+    display: block;
+    width: 198rpx;
+    height: 198rpx;
+    margin:88rpx auto 20rpx auto;
+}
+.scan_txt{
+    display: block;
+    font-size: 28rpx;
+    color:#333;
+    text-align: center;
+    width: 100%;
+}
+
+.barcodeBox{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20rpx;
+    margin-top: 88rpx;
+    .barcode{
+        height: 200rpx;
+
+    }
+}

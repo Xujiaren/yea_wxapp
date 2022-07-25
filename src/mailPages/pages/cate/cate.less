@@ -1,0 +1,102 @@
+page{
+    background-color: #FAFAFA
+}
+
+.wrap{
+    padding-bottom: 120rpx;
+    .head{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #ffffff;
+        z-index: 999;
+        .tabbox{
+            border-bottom: 2rpx solid #f6f6f6;
+        }
+        .tabswrap{
+            padding-top: 10rpx;
+            padding-bottom: 10rpx;
+        }
+    }
+
+    .cate_box{
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        .arrow{
+            width: 20rpx;
+            height: 20rpx;
+        } 
+        .arrow_filt{
+            width: 24rpx;
+            height: 24rpx;
+        }
+    }
+
+    .box_h90{
+        height: 92rpx;
+        width: 100%;
+        background-color: #fafafa;
+    }
+
+
+    .recommBox{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 30rpx;
+        padding-top: 160rpx;
+        .rcomItem{
+            display: flex;
+            flex-direction: column;
+            background-color: #ffffff;
+            border-radius: 10rpx;
+            margin-bottom: 24rpx;
+            padding-bottom: 10rpx;
+
+            .catesCover{
+                border-top-right-radius: 10rpx;
+                border-top-left-radius: 10rpx;
+            }
+        }
+    }
+
+    
+}
+.box_price{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.mark_price{
+    color: #999999;
+    font-size: 22rpx;
+    text-decoration:line-through;
+    margin-left: 8rpx;
+}
+.tabbar{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height:100rpx;
+    display: flex;
+    box-shadow: 0rpx 0rpx 16rpx 0rpx rgba(233,233,233,1);
+    background-color: #ffffff;
+    .tabItem{
+        display: flex;
+        flex-direction: column;
+        flex:1;
+        justify-content: center;
+        align-items: center;
+        .tabItem_cover{
+            width: 48rpx;
+            height: 48rpx;
+        }
+        .bg_red{
+            background-color: #F46643;
+        }
+    }
+}
+
+
+
